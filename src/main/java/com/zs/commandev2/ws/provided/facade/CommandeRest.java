@@ -5,9 +5,6 @@ import com.zs.commandev2.bean.Commande;
 import com.zs.commandev2.service.facade.CommandeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.commons.CommonsMultipartFile;
-
-import javax.ws.rs.Path;
 import java.util.List;
 
 @RestController
